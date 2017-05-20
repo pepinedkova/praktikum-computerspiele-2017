@@ -15,3 +15,5 @@ Be- und Entschleunigungsphase auf animation übertragen !?!?
 sprung / second jump direkt in move richtung, direkter richtungswechsel möglich
 //
 
+unresponsive feeling -> change velocity calc // simpler input system?
+

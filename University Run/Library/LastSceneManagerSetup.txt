@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/sceneGame.unity
+- path: Assets/University Run/SceneGame/sceneGame.unity
   isLoaded: 1
   isActive: 1

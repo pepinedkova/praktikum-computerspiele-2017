@@ -78,10 +78,49 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ControlPlayer25D.cs" />
-    <Compile Include="Assets\SceneGame.cs" />
     <Compile Include="Assets\University Run\FollowObject.cs" />
     <Compile Include="Assets\University Run\Presets\Presets.cs" />
+    <Compile Include="Assets\University Run\SceneGame\ControlPlayer25D.cs" />
+    <Compile Include="Assets\University Run\SceneGame\ControlSceneGame.cs" />
+    <Compile Include="Assets\University Run\SceneGame\ControlUIGame.cs" />
+    <Compile Include="Assets\University Run\SceneGame\UniversityRunGame.cs" />
+    <Compile Include="Assets\Utility\DevFPS.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\AEventModule.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\Clean\EventModuleConvStick.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\Clean\EventModuleTap.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModuleDrag.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModuleEnter.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModuleExit.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModuleGuestureMove.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModuleGuestureStave.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModuleHold.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModuleLook.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModuleMoveJoystick.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModulePress.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModulePress2.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModuleRelease.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModuleRelease2.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModuleSelectSwipe.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModuleSwipe.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModuleSwipe2.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\EventModules\EventModuleTapSwipe.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\IEventHandlers.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\ITouchBlocked.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\ITouchFallThrough.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\InputTrackerDynamic.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\InterfaceModules\AInterfaceModule.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\InterfaceModules\InterfaceModuleConvStick.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\InterfaceModules\InterfaceModuleInteractionSimple.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\InterfaceModules\InterfaceModuleLook.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\InterfaceModules\InterfaceModuleMovePlate.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\InterfaceModules\InterfaceModuleVirtualJoystick.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\README.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\ThreeButtonRunner\EventModuleThreeButtonRunner.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\ThreeButtonRunner\IEventHandlerThreeButtonRunner.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\ThreeButtonRunner\InterfaceModuleThreeButtonRunner.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\TouchData.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\TouchDataExtractor.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\UtilityInput.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
