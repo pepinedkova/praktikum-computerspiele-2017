@@ -1,0 +1,17 @@
+wichtige fragen:
+
+touch interaktion direkt mit welt? (items anclickbar oder hindernisse)
+gegner ausschaltbar? wie? (angriff werfen draufhüpfen)
+charaktär progress nur level/semester zu wenig? sammeln von optischen änderungen, da eh schon am start implementiert?
+
+
+
+
+
+
+
+//
+Be- und Entschleunigungsphase auf animation übertragen !?!?
+sprung / second jump direkt in move richtung, direkter richtungswechsel möglich
+//
+
