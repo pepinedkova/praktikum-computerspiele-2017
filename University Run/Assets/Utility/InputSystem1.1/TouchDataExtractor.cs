@@ -192,12 +192,12 @@ namespace mech.input
             {
                 if (!touchData.ContainsKey(idButtonMouse))
                 {
-
+                    //DevCon.Say("ERROR - not contains previous");
                 }
                 else
                 {
                     TouchData td = touchData[idButtonMouse];
-                    if (td.posPrev == td.position)
+                    if (td.posPrev == (Vector2)Input.mousePosition)
                     {
                         // stationary
                         td.phasePointer = PhasePointer.STATIC;

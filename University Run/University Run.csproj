@@ -115,9 +115,12 @@
     <Compile Include="Assets\Utility\InputSystem1.1\InterfaceModules\InterfaceModuleMovePlate.cs" />
     <Compile Include="Assets\Utility\InputSystem1.1\InterfaceModules\InterfaceModuleVirtualJoystick.cs" />
     <Compile Include="Assets\Utility\InputSystem1.1\README.cs" />
-    <Compile Include="Assets\Utility\InputSystem1.1\ThreeButtonRunner\EventModuleThreeButtonRunner.cs" />
-    <Compile Include="Assets\Utility\InputSystem1.1\ThreeButtonRunner\IEventHandlerThreeButtonRunner.cs" />
-    <Compile Include="Assets\Utility\InputSystem1.1\ThreeButtonRunner\InterfaceModuleThreeButtonRunner.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\SnapPlate\EventModuleSnapPlate.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\SnapPlate\IEventHandlerSnapPlate.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\SnapPlate\InterfaceModuleSnapPlate.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\ThreeStick\EventModuleThreeStick.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\ThreeStick\IEventHandlerThreeStick.cs" />
+    <Compile Include="Assets\Utility\InputSystem1.1\ThreeStick\InterfaceModuleThreeStick.cs" />
     <Compile Include="Assets\Utility\InputSystem1.1\TouchData.cs" />
     <Compile Include="Assets\Utility\InputSystem1.1\TouchDataExtractor.cs" />
     <Compile Include="Assets\Utility\InputSystem1.1\UtilityInput.cs" />

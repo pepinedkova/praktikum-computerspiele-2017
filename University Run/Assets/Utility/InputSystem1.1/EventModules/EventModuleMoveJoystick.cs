@@ -16,9 +16,6 @@ namespace mech.input
 
         public override bool SearchEvent(List<TouchData> touchDatas, float tDelta)
         {
-
-#if UNITY_ANDROID
-
             Vector3 vecMove = Vector3.zero;
 
             foreach(TouchData td in touchDatas)
@@ -37,12 +34,6 @@ namespace mech.input
                 (reciever as IEventHandlerVirtualJoystick).OnMoveSixAxis(vecMove);
                 return true;
             }
-
-#endif
-
-#if UNITY_EDITOR
-
-#endif
 
             return false;
         }

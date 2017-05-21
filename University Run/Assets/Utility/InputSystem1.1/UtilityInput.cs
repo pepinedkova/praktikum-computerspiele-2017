@@ -32,12 +32,23 @@ namespace mech.input
                 }
                 catch
                 {
+                    // not free to read
                     return true;
                 }
 
                 return color.a > 0;
             }
             return false;
+        }
+
+        public static bool IsPointOverAlphas(Image[] images, Vector2 posInput)
+        {
+            bool isOverAlpha = false;
+            foreach(Image image in images)
+            {
+                if (IsPointOverAlpha(image, posInput)) isOverAlpha = true;
+            }
+            return isOverAlpha;
         }
     }
 }

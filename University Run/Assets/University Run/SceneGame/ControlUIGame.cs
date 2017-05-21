@@ -5,4 +5,5 @@ public class ControlUIGame : MonoBehaviour
 {
     public MonoBehaviour scriptPlayer;
     public Image[] imagesButtons;
+    public Image imageSnapPlate;
 }

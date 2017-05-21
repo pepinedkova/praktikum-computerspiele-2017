@@ -15,8 +15,8 @@ public class UniversityRunGame : MonoBehaviour
     public void Begin()
     {
         inputTrackerDynamic = new InputTrackerDynamic();
-        inputTrackerDynamic.AddModule(1, new InterfaceModuleThreeButtonRunner(controlUIGame.scriptPlayer as IEventHandlerThreeButtonRunner, controlUIGame.imagesButtons));
-        //inputTrackerDynamic.AddModule();
+        inputTrackerDynamic.AddModule(1, new InterfaceModuleThreeStick(controlUIGame.scriptPlayer as IEventHandlerThreeStick, controlUIGame.imagesButtons));
+        inputTrackerDynamic.AddModule(0, new InterfaceModuleSnapPlate(controlUIGame.scriptPlayer as IEventHandlerSnapPlate, controlUIGame.imageSnapPlate));
         inputTrackerDynamic.SetActive(true);
 
         isRunning = true;

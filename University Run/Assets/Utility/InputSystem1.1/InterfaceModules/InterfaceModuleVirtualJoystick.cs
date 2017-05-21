@@ -6,7 +6,7 @@ namespace mech.input
 {
     public class InterfaceModuleVirtualJoystick : AInterfaceModule
     {
-        private Image[] images; // images: front, back, right, left, up, down
+        private Image[] images; // images[ front, back, right, left, up, down ]
 
         public InterfaceModuleVirtualJoystick(IEventHandlerVirtualJoystick eventHandlerVirtualJoystick, Image[] images)
         {
